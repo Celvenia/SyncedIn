@@ -16,8 +16,8 @@ function App() {
 
   return (
     <>
+      <h1 className="underline text-3xl">App</h1>
       <Navigation isLoaded={isLoaded} />
-      <h1 className="underline text">App</h1>
       {isLoaded && (
         <Switch>
           <Route path="/login">
